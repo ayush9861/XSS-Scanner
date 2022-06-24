@@ -22,22 +22,13 @@ pip install requests
 Commands:
 
 ```bash
-git clone https://github.com/menkrep1337/XSSCon
-chmod 755 -R XSSCon
-cd XSSCon
-python3 xsscon.py --help 
-```
-## Usage
-Basic usage:
-
-```bash
-python3 xsscon.py -u http://testphp.vulnweb.com
+python3 xssscan.py -u http://testphp.vulnweb.com
 ```
 <br/>
 Advanced usage:
 
 ```bash
-python3 xsscon.py --help
+python3 xssscan.py --help
 ```
 
 ## Main features
@@ -48,18 +39,6 @@ python3 xsscon.py --help
 * Advanced error handling
 * Multiprocessing support.✔️
 * ETC....
-
-
-## Screenshot
-
-<img src="images/screenshot.png">
-
-## Roadmap
-
-v0.3B:
-------
-<li> Added custom options ( --proxy, --user-agent etc... )</li>
-<br/>
 
 v0.3B Patch:
 ------
